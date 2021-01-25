@@ -1,6 +1,6 @@
 Thanks for downloading this template!
 
-Template Name: Vesperr
-Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Template Name:Coffee-To-Business.com
+Template URL: https://coffeeTobusiness.com/
+Author: coffeeTobusiness.com
+License: https://coffeeTobusiness.com/license/
