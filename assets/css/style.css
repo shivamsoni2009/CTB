@@ -1673,8 +1673,7 @@ section {
 /* my css */
 
 .ctb-logo {
-    width: 5rem;
-    height: 5rem;
+    width: 20rem;
 }
 
 .services .row {
@@ -1714,6 +1713,10 @@ section {
     font-weight: 700;
     letter-spacing: 1px;
     color: rgb(205, 109, 92)
+}
+
+.about-slide p {
+    color: white;
 }
 
 .about-heading {
