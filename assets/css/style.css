@@ -1216,6 +1216,11 @@ section {
     opacity: 1;
 }
 
+.team-img {
+    height: 18rem;
+    width: 100%;
+}
+
 
 /*--------------------------------------------------------------
 # Pricing
@@ -1732,4 +1737,11 @@ section {
     background: #3498db;
     display: inline-block;
     margin: .9rem;
+}
+
+.footer-logo {
+    width: 4rem;
+    border: solid 3px black;
+    border-radius: 50%;
+    padding: .3rem;
 }
