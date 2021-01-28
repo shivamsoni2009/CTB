@@ -1706,7 +1706,7 @@ section {
 
 .about-slide {
     text-align: center;
-    background-color: #3BB3D1;
+    background-color: rgba(240, 231, 231, 0.664);
     /* height: 100vh; */
 }
 
@@ -1717,7 +1717,7 @@ section {
 }
 
 .about-slide p {
-    color: white;
+    color: black;
 }
 
 .about-heading {
@@ -1758,4 +1758,13 @@ section {
 .contact-tag {
     font-weight: 600;
     font-size: 1rem;
+}
+
+.group {
+    margin-top: 4rem;
+}
+
+.group-items h2,
+h4 {
+    margin: 2rem auto;
 }
