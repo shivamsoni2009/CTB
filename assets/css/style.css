@@ -1721,8 +1721,7 @@
         border: #161616 1px solid;
     }
     
-    .port1 h2,
-    p {
+    .port1 p {
         text-align: center;
         color: rgba(255, 255, 255, 0.884);
     }
