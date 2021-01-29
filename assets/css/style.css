@@ -373,7 +373,7 @@
     
     #hero {
         width: 100%;
-        height: 70vh;
+        /* height: 70vh; */
         margin-top: 70px;
     }
     
@@ -413,6 +413,13 @@
         animation: up-down 2s ease-in-out infinite alternate-reverse both;
     }
     
+    #hero .hero-span {
+        color: #3498db;
+        font-size: 3.5rem;
+        margin: 1.2rem 0;
+        display: inline-block;
+    }
+    
     @media (min-width: 1024px) {
         #hero {
             background-attachment: fixed;
@@ -420,9 +427,9 @@
     }
     
     @media (max-width: 991px) {
-        #hero {
+        /* #hero {
             height: 100vh;
-        }
+        } */
         #hero .animated {
             -webkit-animation: none;
             animation: none;
@@ -456,6 +463,23 @@
     @media (max-width: 575px) {
         #hero .hero-img img {
             width: 80%;
+            margin-top: 2rem;
+        }
+        #hero h2 {
+            margin-bottom: 3rem;
+        }
+        #hero {
+            margin-top: 3rem;
+            padding-top: 0;
+        }
+        #hero .hero-span {
+            font-size: 2.8rem;
+        }
+    }
+    
+    @media (max-width: 433px) {
+        #hero .hero-span {
+            font-size: 2.2rem;
         }
     }
     
@@ -481,7 +505,7 @@
 --------------------------------------------------------------*/
     
     section {
-        padding: 60px 0;
+        /* padding: 20px 0; */
         overflow: hidden;
     }
     
@@ -704,6 +728,10 @@
     /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+    
+    #services {
+        margin-top: 8rem;
+    }
     
     .services .icon-box {
         padding: 30px;
@@ -1718,16 +1746,20 @@
     }
     
     .group-div {
-        border: #161616 1px solid;
+        border: #b6ababa6 1px solid;
     }
     
-    .port1 p {
-        text-align: center;
-        color: rgba(255, 255, 255, 0.884);
+    .port-1 p {
+        /* text-align: center; */
+        color: white;
+        font-size: 1rem;
+        margin-top: 1.5rem;
     }
     
     .h2-color {
-        color: white;
+        color: rgba(0, 0, 0, 0.808);
+        margin-top: 1rem;
+        font-weight: 700;
     }
     
     .card-1 {
@@ -1746,3 +1778,55 @@
     /* .card-deck {
         margin: 1rem 1rem;
     } */
+    /* #hero .container {
+        margin-top: 5rem;
+    } */
+    /* @media (max-width: 600px) {
+        .hero-span {
+            line-height: 4rem;
+        }
+        #hero .container {
+            margin-top: 9rem;
+        }
+    } */
+    
+    @media (max-width: 800px) {
+        #hero .container {
+            margin: 5rem 0;
+        }
+        .hero-text {
+            padding-top: 0;
+        }
+    }
+    
+    #about {
+        margin-top: 8rem;
+    }
+    
+    #testimonials {
+        margin-top: 8rem;
+    }
+    
+    .bd-example {
+        margin-top: 8rem;
+    }
+    
+    #team {
+        margin-top: 8rem;
+    }
+    
+    #contact {
+        margin-top: 8rem;
+    }
+    
+    #group {
+        margin-top: 8rem;
+    }
+    
+    #group-items {
+        margin-top: 5rem;
+    }
+    
+    .card-deck {
+        margin-top: 8rem;
+    }
