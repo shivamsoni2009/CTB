@@ -1758,7 +1758,7 @@
                 
                 .h2-color {
                     color: rgba(0, 0, 0, 0.808);
-                    margin-top: 1rem;
+                    margin: 1rem 0 1rem 0;
                     font-weight: 700;
                 }
                 
@@ -1833,6 +1833,7 @@
                 /* video */
                 
                 #myVideo {
+                    margin-top: 6rem;
                     position: relative;
                     right: 0;
                     bottom: 0;
@@ -1870,14 +1871,32 @@
         color: black;
     } */
                 
+                .section-testimonials {}
+                
                 .box {
                     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.336)), to(rgba(0, 0, 0, 0.281))), url(../img/ivan-bandura-EWVXMoIWlpA-unsplash.jpg);
                     /* background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/pexels-pixabay2.jpg); */
-                    padding: 200px;
+                    padding: 200px 30px;
                     width: 100%;
                     color: white;
                     /* margin: 100px; */
                     background-size: cover;
                     background-position: center;
                     background-attachment: fixed;
+                }
+                
+                .bd-example li {
+                    list-style: none;
+                    margin-bottom: .5rem;
+                    text-align: left;
+                }
+                
+                .bd-example li::before {
+                    font-family: FontAwesome;
+                    content: '\f00c';
+                    font-size: 20px;
+                    color: #3498DB;
+                    position: absolute;
+                    left: 4px;
+                    line-height: 24px;
                 }
