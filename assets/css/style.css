@@ -1763,7 +1763,6 @@
                 
                 .group p {
                     width: 100%;
-                    padding: 0 15px;
                 }
                 
                 .group {
@@ -1779,8 +1778,7 @@
                     border: #b6ababa6 1px solid;
                 }
                 
-                .group-div h2,
-                p {
+                .group-div h2 {
                     padding: 1rem;
                 }
                 
