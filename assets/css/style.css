@@ -1966,3 +1966,11 @@
                     z-index: 4;
                     border-radius: 5px;
                 }
+                
+                .more-project a:hover {
+                    background-color: #080808;
+                    color: coral;
+                    border: coral solid;
+                    transition: .5s;
+                }
+                /* .more-project a */
